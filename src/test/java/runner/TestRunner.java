@@ -34,7 +34,7 @@ public class TestRunner {
     @Test
     public void testRpaChallenge() {
         // Read data from Excel and fill the form
-        ExcelReader excelReader = new ExcelReader("C:/Users/PRASETYO BINTANG/IdeaProjects/rpachallenge/challenge.xlsx");
+        ExcelReader excelReader = new ExcelReader("C:/Users/PRASETYO BINTANG/IdeaProjects/Automation-Dynamic-UI/challenge.xlsx");
         while (excelReader.hasNext()) {
             fillForm(excelReader.getNextRow());
             submitForm();
